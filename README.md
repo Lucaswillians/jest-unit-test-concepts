@@ -2,6 +2,12 @@
 
 Este projeto contém uma coleção de testes automatizados aplicados em uma API REST, abordando diferentes tipos de testes como unitários, de integração, de banco de dados, e2e, e testes específicos para funcionalidades como envio de e-mail e upload de imagem.
 
+## Requisitos
+Para executar este projeto, é necessário ter os seguintes requisitos instalados no ambiente de desenvolvimento:
+
+- Node.js: ambiente de execução JavaScript necessário para rodar o projeto e os testes. Recomendamos uma versão igual ou superior à 14.x.
+- SQLite: banco de dados leve utilizado nos testes de banco de dados para garantir operações rápidas e isoladas durante o processo de testes.
+
 ## Tópicos Abordados
 
 1. **Testes Unitários com Jest**
@@ -63,12 +69,6 @@ Este projeto contém uma coleção de testes automatizados aplicados em uma API 
 6. **Aluguel de Livro**
    - Verificação da funcionalidade de aluguel de livro, checando se:
      - As datas de aluguel são coerentes e respeitam regras definidas, evitando sobreposições de período para o mesmo livro.
-
-7. **Configuração do Banco de Dados para Testes**
-- Para a execução dos testes de banco de dados, é necessário que o SQLite esteja instalado no ambiente de desenvolvimento. O SQLite é usado como banco de dados leve para testes, permitindo operações rápidas e isoladas. Certifique-se de que ele está configurado corretamente antes de iniciar os testes:
-    -  Instalação do SQLite: Caso não tenha o SQLite instalado, você pode instalá-lo conforme a documentação oficial para o seu sistema operacional.
-      Configuração do Banco de Dados de Teste: O projeto pode estar configurado para utilizar um banco de dados específico para testes (por exemplo, database_test.sqlite). Certifique-se de que as variáveis de ambiente ou arquivos de configuração 
-      apontem para o banco correto antes de executar os testes.
 
 ## Executando os Testes
 
